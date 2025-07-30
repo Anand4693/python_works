@@ -1,0 +1,6 @@
+
+num = int(inout("enter number"))
+
+rem = num%2
+
+print (rem !=0)

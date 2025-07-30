@@ -1,0 +1,6 @@
+print("Web Application Development")
+print("Data science and analaytics")
+print("Machine learning and AI")
+print("Desktop Application")
+print("Web Scrapping")
+print("IOT")
