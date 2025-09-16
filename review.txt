@@ -214,6 +214,9 @@ dict {key:value,key:value,key:value}
 
 # __name__ == "__main__"
 
+# decorators
+    # decorators are function that changes the behaviour of another function without changing parent class.
+
 # GIT and GITHUB
     => version control system
     => allows developers to track changes in code block.
@@ -225,6 +228,7 @@ dict {key:value,key:value,key:value}
     => git remote add name remote_path => remote repository local add
     => git remote -v => list all remote repository
     => git branch => list all branches.
+    => git pull origin master => changes from remote repository
 
 expenses_list=[12000,13000,14000,11000,12000,12000,13000,14000,11000]
 <!--    -->       0    1     2    3     4
