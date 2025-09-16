@@ -13,6 +13,11 @@ Python Applications
     >desktop application
     >IOT
 
+.py => python interpreter
+>python --version
+python location : where python
+dynamically typed : num=8
+
 Python variables
 
     def
@@ -91,6 +96,8 @@ looping stmts
 
                 print(i)
 
+        break : exit from loop
+        continue : skip current iteration
 
 functions 
 
@@ -109,6 +116,20 @@ functions
 
             function_name(arg1,arg2,,,)
 
+lambda function : 
+    # def
+        # single line anonymous function with one expression
+    # syntax
+        # lambda p1,p2:expression
+Recursion
+    #def
+        # function itself
+    # syntax   
+        # def recursive_funstion(p):
+            # base condition
+            
+            # recusive_function(p)
+
 mutable and immutable
 
 
@@ -120,16 +141,90 @@ string
     methods:
 
 
+# Collections
 
-list [] list()
+list [] list() - can be updated
 
-set 
+set - can be updated - all are unique
 
 tuple (),tuple(),immutable
 
 dict {key:value,key:value,key:value}
 
+# slicing => extract part of a collection or sequence
+    [start:stop:step]
 
+# list comprehension easy way for creating list,set,dictionary from sequence
+
+# nested collections
+    => list of list
+    => list of dictionary
+
+# file I/Operator
+    => red,write,append
+    => open()
+
+# Object oriented programming
+    => definition
+    => class
+    => object
+    => self
+    => super()
+    => __init__() => constructor
+    => __str__() => string representation of object
+    => Inheritance
+        => Single Inheritance
+        => Multilevel Inheritance
+        => Multiple Inheritance
+    => Polymorphism
+        => method overloading => same method name different number of parameters
+        => method overriding => Customize behaviour in child class without changing parent class.
+                             => To provide specific implimentation of a method that is already defined in parent class.
+
+        
+        # Abstraction
+            => hiding implimentation details
+            => abc.py => ABC,@abstract_method
+
+        # different type of methods
+            =>Instance method (self)
+            =>Class method (cls) @class_method
+            =>Static method() @static method
+
+
+# Variable length arguement method
+    => *args, **kwargs
+    => *args => non keyword arguement method receives any number of parms as tuple
+    => **kwargs => keyword arguement method receives any number of params as dictionary
+
+# Error Handling
+    => 1.syntax error 2.runtime error (Exception)
+    => runtime errors handle
+        # try:doubt ful code
+        # except: handling code
+        # finally: clean up processing
+        # raise: custom error throw
+        # assert: debugging
+
+#modules import
+    # from......import
+    # copy.py => copy(), deepcopy()
+        #copy() => shallow copy => copies outer objects
+        #deepcopy() => copies both outer and nested objects.
+
+# __name__ == "__main__"
+
+# GIT and GITHUB
+    => version control system
+    => allows developers to track changes in code block.
+    => git init => initilize git repository
+    => git add -A => adding all changes to staging already
+    => git commit -m "commit message" => staged files to local repository
+    => git push -u name branch => local repository => remote repository
+    => git status => list all untracked files.
+    => git remote add name remote_path => remote repository local add
+    => git remote -v => list all remote repository
+    => git branch => list all branches.
 
 expenses_list=[12000,13000,14000,11000,12000,12000,13000,14000,11000]
 <!--    -->       0    1     2    3     4

@@ -8,7 +8,7 @@
     # def max(iterable) return largest element inside iterable
     # def min(iterable) return smallest element inside iterable
     # def sum(iterable) return total of iterable
-    
+    # def numerator
 
 # random.py
 
